@@ -46,7 +46,7 @@ class App extends Component {
       this.setState({ topScore: newScore });
     }
     else if (newScore === 12) {
-      this.setState({ rightWrong: "You win!" });
+      this.setState({ rightWrong: "You Win!" });
     }
     this.handleShuffle();
   };
@@ -77,7 +77,7 @@ class App extends Component {
         />
 
         <Title>
-          Click on each character without clicking any one twice!
+            Click on each character without clicking any one twice!
         </Title>
 
         <Container>
