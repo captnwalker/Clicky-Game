@@ -1,0 +1,44 @@
+nav {    
+    width: 100%;
+    font-size: 3rem;
+    color: rgb(52, 10, 192);
+    margin-bottom: 50px;
+    background-image: url(../img/sp-nav2.png);
+    height: 166px;
+}
+
+#rw {
+    color: rgb(250, 4, 4);
+}
+
+#rw:hover {
+    color: rgb(250, 4, 4);
+    transform: scale(1.5);
+    transform: rotate(360deg);
+    transition: all 1s;
+}
+
+#rw:hover a p.new-label:after {
+    content: 'YOU BASTARD!!';
+}
+
+a {
+    color: rgb(83, 8, 223);
+    font-size: 3.8rem;
+}
+
+a:hover {
+    color: rgb(55, 16, 231);
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 26px 0;
+    width: 25%;
+    text-align: center;
+}
+
+ul {
+    padding-left: 0px;
+}
