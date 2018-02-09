@@ -1,14 +1,28 @@
-nav {    
+nav {
     width: 100%;
     font-size: 3rem;
-    color: rgb(52, 10, 192);
+    color: rgb(10, 204, 10);
     margin-bottom: 50px;
-    background-image: url(../img/sp-nav2.png);
     height: 166px;
+    background-image: url(../img/sp-nav2.png);
+    transition: .4s;
 }
 
+#parallax:hover {
+    position: relative;
+    transform: scale(1.05);
+    transition: .4s;
+    z-index: 0;
+}
+
+#parallax:hoverOut {
+    position: relative;
+    transition: .4s;
+    z-index: 0;
+}
 #rw {
     color: rgb(250, 4, 4);
+    transition: all 1s;
 }
 
 #rw:hover {
@@ -16,6 +30,7 @@ nav {
     transform: scale(1.5);
     transform: rotate(360deg);
     transition: all 1s;
+    text-transform: uppercase;
 }
 
 #rw:hover a p.new-label:after {
@@ -28,7 +43,7 @@ a {
 }
 
 a:hover {
-    color: rgb(55, 16, 231);
+    color: rgb(3, 173, 40);
     text-decoration: none;
 }
 

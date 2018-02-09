@@ -78,6 +78,8 @@ class App extends Component {
 
         <Title>
             Click on each character without clicking any one twice!
+            <br />
+            Please Don't Kill Kenny! ...Again!
         </Title>
 
         <Container>

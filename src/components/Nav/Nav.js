@@ -2,7 +2,7 @@ import React from "react";
 import "./Nav.css";
 
 const Nav = props => (
-    <nav>
+    <nav id="parallax">
         <ul>
             <li className="scoreBoard">
                 <a href="/clicky-game/">{props.title}</a>

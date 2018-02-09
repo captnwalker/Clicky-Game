@@ -17,6 +17,7 @@
   height: 100%;
   overflow: hidden;
   text-align: center;
+  transition: all 1s;
   background: radial-gradient(rgb(230, 14, 14), rgb(230, 169, 40));
 }
 

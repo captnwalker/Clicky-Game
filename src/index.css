@@ -2,7 +2,8 @@
   box-sizing: border-box;
   font-family: 'Fontdiner Swanky',
   cursive !important;
-   text-shadow: 2px 2px 4px rgb(253, 238, 21);
+   text-shadow: 2px 2px 4px rgb(253, 238, 21),
+   4px 4px 6px rgb(160, 5, 114);
 }
 
 html,

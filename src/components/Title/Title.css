@@ -2,6 +2,14 @@
     width: 100%;
     text-align: right;
     font-size: 2.5rem;
-    color: rgb(2, 96, 119);
+    transition: .5s;
+    color: rgb(6, 201, 23);
+    text-shadow: 3px 3px 4px rgb(20, 1, 15),
+    5px 5px 6px rgb(250, 27, 183);
     margin-bottom: 50px;
+}
+
+.title:hover {
+    transform: scale(1.5);
+    transition: .5s;
 }
