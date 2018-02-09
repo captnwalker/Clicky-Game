@@ -18,7 +18,7 @@
 
 ### Screenshot of this Project
 
-![Clicky-Game](https://raw.github.com/captnwalker/Clicky-Game/master/screenshot/screenshot1.gif "Clicky-Game")>
+![Clicky-Game](https://raw.github.com/captnwalker/Clicky-Game/master/screenshot/screenshot1.gif "Clicky-Game")
 
 ### Technologies Utilized
 
