@@ -1,20 +1,17 @@
 nav {
     width: 100%;
+    background-image: url(../img/sp-nav2.png);
     font-size: 3rem;
-    color: rgb(10, 204, 10);
+    color: rgb(49, 9, 224);
     margin-bottom: 50px;
     height: 166px;
-    background-image: url(../img/sp-nav2.png);
     transition: .4s;
-    /* box-shadow: 5px 5px blue,
-    10px 10px red,
-    15px 15px yellow; */
-     box-shadow: 8px 8px 10px #f1ee0d;
+    box-shadow: 8px 8px 10px #f1ee0d;
 }
 
 #parallax:hover {
     position: relative;
-    transform: scale(1.05);
+    transform: scale(1.06);
     transition: .4s;
     z-index: 0;
 }
@@ -24,16 +21,17 @@ nav {
     transition: .4s;
     z-index: 0;
 }
+
 #rw {
     color: rgb(250, 4, 4);
-    transition: all 1s;
+    transition: all .8s;
 }
 
 #rw:hover {
     color: rgb(250, 4, 4);
     transform: scale(1.5);
     transform: rotate(360deg);
-    transition: all 1s;
+    transition: all .8s;
     text-transform: uppercase;
 }
 

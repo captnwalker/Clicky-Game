@@ -1,24 +1,29 @@
 import React, { Component } from "react";
 import FriendCard from "./components/FriendCard";
-import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper";
+import Nav from "./components/Nav";
 import Title from "./components/Title";
-import Container from "./Container";
-import Row from "./Row";
-import Column from "./Column";
 import friends from "./friends.json";
+import Container from "./Container";
+import Column from "./Column";
+import Row from "./Row";
 import "./App.css";
 
 function shuffleFriends(array) {
+
   for (let i = array.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
+
+    let k = Math.floor(Math.random() * (i + 1));
+
+    [array[i], array[k]] = [array[k], array[i]];
   }
+
   return array;
+
 };
 
 class App extends Component {
-  // Set this.state
+  //setting state
   state = {
     friends,
     currentScore: 0,
@@ -42,6 +47,7 @@ class App extends Component {
       currentScore: newScore,
       rightWrong: "Hella Cool!"
     });
+
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
     }
@@ -58,6 +64,7 @@ class App extends Component {
       rightWrong: "OMG, You Killed Kenny!",
       clicked: []
     });
+
     this.handleShuffle();
   };
 
@@ -77,9 +84,9 @@ class App extends Component {
         />
 
         <Title>
-            Click on each character without clicking any one twice!
+          Click on each character without clicking any one twice!
             <br />
-            Please Don't Kill Kenny! ...Again!
+          Please Don't Kill Kenny! ...Again!
         </Title>
 
         <Container>
@@ -90,8 +97,8 @@ class App extends Component {
                   key={friend.id}
                   handleClick={this.handleClick}
                   handleIncrement={this.handleIncrement}
-                  handleReset={this.handleReset}
                   handleShuffle={this.handleShuffle}
+                  handleReset={this.handleReset}
                   id={friend.id}
                   image={friend.image}
                 />
@@ -103,7 +110,5 @@ class App extends Component {
     );
   }
 }
-
-
 
 export default App;

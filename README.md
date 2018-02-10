@@ -23,6 +23,7 @@
 ### Technologies Utilized
 
 * React
+* Axios
 * NodeJS
 * Yarn
 * Bootstrap
@@ -37,6 +38,7 @@
 2. Clone down this repo
 3. Restore dependencies by running `yarn install` in the root of the repo
 4. Start local server by running `yarn start`
+5. Try not to kill Kenny
 
 ---
 
