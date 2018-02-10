@@ -14,7 +14,7 @@
 
 ~~This app has been deployed to gitpages and can be played by clicking the link below:~~
 
-~~(https://github.com/captnwalker/Clicky-Game.com/ "Clicky-Game")~~
+~~(https://github.com/captnwalker/Clicky-Game.com/ "Clicky-Game")~~ Link will be active after February 13, 2018
 
 ### Screenshot of this Project
 
@@ -30,6 +30,13 @@
 * JavaScript
 * HTML5
 * CSS
+
+### Steps to Deploy Locally
+
+1. Run `npm install -g create-react-app yarn`
+2. Clone down this repo
+3. Restore dependencies by running `yarn install` in the root of the repo
+4. Start local server by running `yarn start`
 
 ---
 
