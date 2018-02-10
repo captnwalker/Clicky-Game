@@ -1,11 +1,14 @@
 .title {
+    color: rgb(251, 255, 7);
+    text-shadow: 3px 3px 5px rgb(20, 1, 15),
+    5px 5px 8px rgb(250, 6, 177);
     width: 100%;
     text-align: right;
     font-size: 2.5rem;
     transition: .5s;
-    color: rgb(2, 143, 56);
+    /* color: rgb(2, 143, 56);
     text-shadow: 3px 3px 4px rgb(20, 1, 15),
-    5px 5px 6px rgb(250, 27, 183);
+    5px 5px 6px rgb(250, 27, 183); */
     margin-bottom: 50px;
 }
 

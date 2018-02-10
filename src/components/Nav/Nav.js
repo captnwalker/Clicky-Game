@@ -18,5 +18,3 @@ const Nav = props => (
 );
 
 export default Nav;
-
-// brand animated lightSpeedIn

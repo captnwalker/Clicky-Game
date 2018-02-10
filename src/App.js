@@ -46,7 +46,7 @@ class App extends Component {
       this.setState({ topScore: newScore });
     }
     else if (newScore === 12) {
-      this.setState({ rightWrong: "You Win!" });
+      this.setState({ rightWrong: "You Win a Bag of Cheezy-Poofs!" });
     }
     this.handleShuffle();
   };

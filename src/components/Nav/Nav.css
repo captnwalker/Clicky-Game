@@ -6,6 +6,10 @@ nav {
     height: 166px;
     background-image: url(../img/sp-nav2.png);
     transition: .4s;
+    /* box-shadow: 5px 5px blue,
+    10px 10px red,
+    15px 15px yellow; */
+     box-shadow: 8px 8px 10px #f1ee0d;
 }
 
 #parallax:hover {
