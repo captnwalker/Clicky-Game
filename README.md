@@ -3,9 +3,11 @@
 ## NOTICE: This project is still in production. Release date and deployment is scheduled for February 13, 2018
 
 ## Table of Contents
-
+- [Clicky Game :video_game:](#clicky-game-videogame)
+    - [NOTICE: This project is still in production. Release date and deployment is scheduled for February 13, 2018](#notice-this-project-is-still-in-production-release-date-and-deployment-is-scheduled-for-february-13-2018)
+    - [Table of Contents](#table-of-contents)
     - [Purpose of this project](#purpose-of-this-project)
-        - [How to Play- Clicky Game :video_game:](#how-to-play--clicky-game-videogame)
+        - [How to Play](#how-to-play)
         - [Deployment](#deployment)
         - [Screenshot of this Project](#screenshot-of-this-project)
         - [Technologies Utilized](#technologies-utilized)
