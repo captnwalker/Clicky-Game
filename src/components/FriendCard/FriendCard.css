@@ -29,7 +29,7 @@
 }
 
 .card>.img-container:hover {
-  transform: rotate(360deg);
   transition: all .8s;
+  transform: rotate(360deg);  
   background: radial-gradient(rgb(41, 241, 91), rgb(238, 241, 13));
 }

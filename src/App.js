@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
-import Nav from "./components/Nav";
 import Title from "./components/Title";
 import friends from "./friends.json";
 import Container from "./Container";
+import Nav from "./components/Nav";
 import Column from "./Column";
 import Row from "./Row";
 import "./App.css";
 
+// Game logic
 function shuffleFriends(array) {
 
   for (let i = array.length - 1; i > 0; i--) {
@@ -22,8 +23,9 @@ function shuffleFriends(array) {
 
 };
 
+// ScoreBoard
 class App extends Component {
-  //setting state
+  // Setting state
   state = {
     friends,
     currentScore: 0,
@@ -32,6 +34,7 @@ class App extends Component {
     clicked: [],
   };
 
+  // Register clicks
   handleClick = id => {
     if (this.state.clicked.indexOf(id) === -1) {
       this.handleIncrement();
@@ -41,22 +44,25 @@ class App extends Component {
     }
   };
 
+  // For each unique click increment score state and provide a positive feedback message
   handleIncrement = () => {
     const newScore = this.state.currentScore + 1;
     this.setState({
       currentScore: newScore,
       rightWrong: "Hella Cool!"
     });
-
+    //  Display new score
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
     }
+    // If score reaches 12, display game won message
     else if (newScore === 12) {
       this.setState({ rightWrong: "You Win a Bag of Cheezy-Poofs!" });
     }
+    // Call Reshuffle cards function
     this.handleShuffle();
   };
-
+    // If player clicks same, reset score to Zero, empty array and display losing message
   handleReset = () => {
     this.setState({
       currentScore: 0,
@@ -64,15 +70,15 @@ class App extends Component {
       rightWrong: "OMG, You Killed Kenny!",
       clicked: []
     });
-
+    // Call Reshuffle cards function
     this.handleShuffle();
   };
-
+    // Reshuffle cards function
   handleShuffle = () => {
     let shuffledFriends = shuffleFriends(friends);
     this.setState({ friends: shuffledFriends });
   };
-
+  // Render NavBar and scoreBoard
   render() {
     return (
       <Wrapper>
@@ -83,12 +89,14 @@ class App extends Component {
           rightWrong={this.state.rightWrong}
         />
 
+        {/* Display game instructions */}
         <Title>
           Click on each character without clicking any one twice!
             <br />
           Please Don't Kill Kenny! ...Again!
         </Title>
 
+        {/* Build to FirendCard model */}
         <Container>
           <Row>
             {this.state.friends.map(friend => (

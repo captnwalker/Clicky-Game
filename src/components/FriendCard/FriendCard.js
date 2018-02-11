@@ -1,6 +1,7 @@
 import React from "react";
 import "./FriendCard.css";
 
+// Function to handle card click event
 const FriendCard = props => (
     <div
         className="card"
