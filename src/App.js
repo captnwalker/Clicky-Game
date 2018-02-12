@@ -50,13 +50,19 @@ class App extends Component {
     this.setState({
       currentScore: newScore,
       rightWrong: "Hella Cool!"
-    });
+    })
+// ////////////////////////////////////////////////////////////
+
+
+
+
+// //////////////////////////////////////////////////////////////////
     //  Display new score
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
     }
-    // If score reaches 12, display game won message
-    else if (newScore === 12) {
+    // If score reaches 16, display game won message
+    else if (newScore === 16) {
       this.setState({ rightWrong: "You Win a Bag of Cheezy-Poofs!" });
     }
     // Call Reshuffle cards function

@@ -57,5 +57,25 @@
         "id": 12,
         "image": "https://media.giphy.com/media/3o6Zt2BBTEDMR0ZxLy/giphy.gif",
         "clicked": false
+    },
+    {
+        "id": 13,
+        "image": "https://media.giphy.com/media/1iUlZloL4DiH8HL2/giphy.gif",
+        "clicked": false
+    },
+    {
+        "id": 14,
+        "image": "https://media.giphy.com/media/C0uinNcyxcBmE/giphy.gif",
+        "clicked": false
+    },
+    {
+        "id": 15,
+        "image": "https://media.giphy.com/media/KSE17zQpd8Wty/giphy.gif",
+        "clicked": false
+    },
+    {
+        "id": 16,
+        "image": "https://media.giphy.com/media/3oEduN3KZyvqTIEmxa/giphy.gif",
+        "clicked": false
     }
 ]
