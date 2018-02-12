@@ -2,12 +2,12 @@ nav {
     width: 100%;
     background-image: url(../img/sp-nav2.png);
     font-size: 3rem;
-    
     margin-bottom: 50px;
     height: 166px;
     transition: .4s;
-    box-shadow: 12px 12px 12px #f1ee0d;
 }
+
+/*  Hover effect for navBar */
 
 #parallax:hover {
     position: relative;
@@ -45,84 +45,78 @@ nav {
     content: 'YOU BASTARD!!';
 }
 
+/* WebKit Animation for Game Title */
+
 a {
     font-size: 4rem;
-   -webkit-animation: color-change 1s infinite;
-   -moz-animation: color-change 1s infinite;
-   -o-animation: color-change 1s infinite;
-   -ms-animation: color-change 1s infinite;
-   animation: color-change 1.5s infinite;
-   }
+    -webkit-animation: color-change 4.5s infinite;
+    -moz-animation: color-change 4.5s infinite;
+    -o-animation: color-change 4.5s infinite;
+    -ms-animation: color-change 4.5s infinite;
+    animation: color-change 4.5s infinite;
+}
 
-   @-webkit-keyframes color-change {
-       0% {
-           color: red;
-       }
-       50% {
-           color:rgb(3, 173, 40);
-       }
-       100% {
-           color: red;
-       }
-   }
+@-webkit-keyframes color-change {
+    0% {
+        color: rgb(245, 4, 245);
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: yellow;
+    }
+}
 
-   @-moz-keyframes color-change {
-       0% {
-           color: red;
-       }
-       50% {
-           color: rgb(3, 173, 40);
-       }
-       100% {
-           color: red;
-       }
-   }
+@-moz-keyframes color-change {
+    0% {
+        color: rgb(245, 4, 245);
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: yellow;
+    }
+}
 
-   @-ms-keyframes color-change {
-       0% {
-           color: red;
-       }
-       50% {
-           color: rgb(3, 173, 40);
-       }
-       100% {
-           color: red;
-       }
-   }
+@-ms-keyframes color-change {
+    0% {
+        color: rgb(245, 4, 245);
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: yellow;
+    }
+}
 
-   @-o-keyframes color-change {
-       0% {
-           color: red;
-       }
-       50% {
-           color: rgb(3, 173, 40);
-       }
-       100% {
-           color: red;
-       }
-   }
+@-o-keyframes color-change {
+    0% {
+        color: rgb(245, 4, 245);
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: yellow;
+    }
+}
 
-   @keyframes color-change {
-       0% {
-           color: rgb(237, 62, 103);
-       }
-       50% {
-           color: rgb(30, 119, 3);
-       }
-       100% {
-           color: rgb(179, 4, 170);
-       }
-   }
-
-
-
-/* a {
-    color: rgb(3, 173, 40);
-    font-size: 3.8rem;
-} */
+@keyframes color-change {
+    0% {
+        color: rgb(245, 4, 245);
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: yellow;
+    }
+}
 
 a:hover {
-    /* color: rgb(247, 11, 215); */
     text-decoration: none;
 }
 
