@@ -13,7 +13,7 @@
 
 ## Purpose of this project
 
->"Clicky-Game" is a memory game built with React. To complete this project it was neccessary to break up the application's UI into components, manage component state, and respond to user input events. I elected to give this project a "South Park" theme and included animated rotating giphy's, an hypnotic background, surprising text animations for an immersive gaming experience too increase the level of difficulty of the game. You **will not** beat this game. It has been designed to beat you, psychologically! Mmmmmwwwwahahahahahahaha! :smirk:
+>**"Clicky-Game"** is a memory game built with React. To complete this project it was neccessary to break up the application's UI into components, manage component state, and respond to user input events. I elected to give this project a "South Park" theme and included animated rotating giphy's, an hypnotic background, surprising text animations for an immersive gaming experience too increase the level of difficulty of the game. You **will not** beat this game. It has been designed to beat you, psychologically! Mmmmmwwwwahahahahahahaha! :smirk:
 
 ### How to Play
 
