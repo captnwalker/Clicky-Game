@@ -23,7 +23,7 @@ nav {
 }
 
 #scores {
-    background-color: #f1ee0d;
+    background-color: rgba(241, 238, 13, .8);
     height: 65px;
     color: rgb(49, 9, 224);
 }

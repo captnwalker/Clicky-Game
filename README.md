@@ -21,9 +21,9 @@
 
 ### Deployment
 
-This app has been deployed to gitpages and can be played by clicking the link below:
+This app has been deployed to Heroku and can be played by clicking the link below:
 
-[South Park Clicky Game](https://github.com/captnwalker/Clicky-Game.com/ "Clicky-Game")
+[South Park Clicky Game](https://sleepy-caverns-68305.herokuapp.com/ "Clicky-Game")
 
 ### Screenshot of this Project
 
