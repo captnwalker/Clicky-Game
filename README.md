@@ -1,11 +1,8 @@
 # Clicky Game :video_game:
 
-## NOTICE: This project is still in production. Release date and deployment is scheduled for February 13, 2018
-
 ## Table of Contents
-- [Clicky Game :video_game:](#clicky-game-videogame)
-    - [NOTICE: This project is still in production. Release date and deployment is scheduled for February 13, 2018](#notice-this-project-is-still-in-production-release-date-and-deployment-is-scheduled-for-february-13-2018)
-    - [Table of Contents](#table-of-contents)
+
+- [Clicky Game](#clicky-game)
     - [Purpose of this project](#purpose-of-this-project)
         - [How to Play](#how-to-play)
         - [Deployment](#deployment)
@@ -24,9 +21,9 @@
 
 ### Deployment
 
-~~This app has been deployed to gitpages and can be played by clicking the link below:~~
+This app has been deployed to gitpages and can be played by clicking the link below:
 
-~~(https://github.com/captnwalker/Clicky-Game.com/ "Clicky-Game")~~ Link will be active after February 13, 2018
+[South Park Clicky Game](https://github.com/captnwalker/Clicky-Game.com/ "Clicky-Game")
 
 ### Screenshot of this Project
 
