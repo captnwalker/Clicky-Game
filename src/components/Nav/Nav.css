@@ -2,11 +2,11 @@ nav {
     width: 100%;
     background-image: url(../img/sp-nav2.png);
     font-size: 3rem;
-    color: rgb(49, 9, 224);
+    
     margin-bottom: 50px;
     height: 166px;
     transition: .4s;
-    box-shadow: 35px 35px 20px #f1ee0d;
+    box-shadow: 12px 12px 12px #f1ee0d;
 }
 
 #parallax:hover {
@@ -20,6 +20,12 @@ nav {
     position: relative;
     transition: .4s;
     z-index: 0;
+}
+
+#scores {
+    background-color: #f1ee0d;
+    height: 65px;
+    color: rgb(49, 9, 224);
 }
 
 #rw {
@@ -40,12 +46,83 @@ nav {
 }
 
 a {
-    color: rgb(255, 22, 22);
+    font-size: 4rem;
+   -webkit-animation: color-change 1s infinite;
+   -moz-animation: color-change 1s infinite;
+   -o-animation: color-change 1s infinite;
+   -ms-animation: color-change 1s infinite;
+   animation: color-change 1.5s infinite;
+   }
+
+   @-webkit-keyframes color-change {
+       0% {
+           color: red;
+       }
+       50% {
+           color:rgb(3, 173, 40);
+       }
+       100% {
+           color: red;
+       }
+   }
+
+   @-moz-keyframes color-change {
+       0% {
+           color: red;
+       }
+       50% {
+           color: rgb(3, 173, 40);
+       }
+       100% {
+           color: red;
+       }
+   }
+
+   @-ms-keyframes color-change {
+       0% {
+           color: red;
+       }
+       50% {
+           color: rgb(3, 173, 40);
+       }
+       100% {
+           color: red;
+       }
+   }
+
+   @-o-keyframes color-change {
+       0% {
+           color: red;
+       }
+       50% {
+           color: rgb(3, 173, 40);
+       }
+       100% {
+           color: red;
+       }
+   }
+
+   @keyframes color-change {
+       0% {
+           color: rgb(237, 62, 103);
+       }
+       50% {
+           color: rgb(30, 119, 3);
+       }
+       100% {
+           color: rgb(179, 4, 170);
+       }
+   }
+
+
+
+/* a {
+    color: rgb(3, 173, 40);
     font-size: 3.8rem;
-}
+} */
 
 a:hover {
-    color: rgb(3, 173, 40);
+    /* color: rgb(247, 11, 215); */
     text-decoration: none;
 }
 

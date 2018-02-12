@@ -10,11 +10,19 @@ const Nav = props => (
                 <a href="/clicky-game/">{props.title}</a>
             </li> */}
 
-            <li>{props.title}</li>
+            <div align="center">
+
+                <li className="scoreBoard">
+                <a href="/clicky-game/">{props.title}</a>
+            </li>
+
+                {/* <li className="scoreBoard">{props.title}</li> */}
 
             <li id="rw">{props.rightWrong}</li>
 
-            <div align="center">
+            </div>
+
+            <div id="scores" align="center">
 
             <li>Your Score: {props.score}</li>
 
